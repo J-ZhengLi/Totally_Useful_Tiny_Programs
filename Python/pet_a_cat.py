@@ -5,7 +5,6 @@ a = 1
 while a:
     if random.randint(0,1):
         time.sleep(random.randint(1,3))
-        t = Timer(1, x)
-        t.start()
-        i = input('cat angry, pet it with <Enter>:')
+        t = Timer(1, x); t.start()
+        input('cat angry, pet it with <Enter>:')
         t.cancel()
